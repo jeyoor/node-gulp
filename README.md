@@ -1,6 +1,5 @@
 Gulp
 ====
-====
 
 An [express](https://github.com/visionmedia/express) app to demo simple web scraping and output, one mouthful at a time.
 
