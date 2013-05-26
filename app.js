@@ -1,8 +1,12 @@
-var express = require('express');
-var app = express();
-app.get('/info.json', function(req, res){
-  var body = 'Hello, world';
-  res.send(body);
+var forever = require('forever-monitor')
+
+var child = new (forever.Monitor)('gulp.js', {
+  silent: false,
+  options: []
 });
-app.listen(3000);
-console.log('Listening on port 3000');
+
+child.on('exit', function () {
+  console.log('gulp has exited!');
+});
+
+child.start();

@@ -1,5 +1,5 @@
-0.0.1
-=====
+0.0.1 - DONE
+============
 on request, scrape html and display stock price info
 
 0.0.2
