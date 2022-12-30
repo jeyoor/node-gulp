@@ -1,3 +1,10 @@
+Legacy repository:
+
+This repository is read-only and is no longer maintained or supported.
+It depends on vulnerable, outdated versions of libraries.
+
+
+
 Gulp
 ====
 
